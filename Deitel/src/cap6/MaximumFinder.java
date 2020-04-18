@@ -35,4 +35,4 @@ public class MaximumFinder {
         
         return maximumValue;
     }
-}
+} // Fim da classe MaximumFinder
