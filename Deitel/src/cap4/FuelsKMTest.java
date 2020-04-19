@@ -20,4 +20,4 @@ public class FuelsKMTest {
             System.out.printf("Combustível total consumido: %d litros.%n%n", fuelskm.getGasolTotal());                
         }
     }
-}
+} // Fim da classe FuelsKMTest
