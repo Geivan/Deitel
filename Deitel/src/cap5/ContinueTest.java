@@ -12,4 +12,4 @@ public class ContinueTest {
         
         System.out.printf("%nUsed continue to skip printing 5%n");        
     }
-}
+} // Fim da classe ContinueTest
