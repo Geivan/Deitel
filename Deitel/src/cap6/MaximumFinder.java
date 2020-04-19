@@ -19,7 +19,7 @@ public class MaximumFinder {
         
         // exibe o valor máximo
         System.out.println("Maximum is: " + result);
-    }
+    } // Fim da classe Main
     
     // retorna o máximo dos seus três parâmetros de double
     public static double maximum(double x, double y, double z){
