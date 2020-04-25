@@ -35,4 +35,4 @@ public class Scope {
         x *= 10; // modifica o campo x da classe Scope
         System.out.printf("Campo x antes de existir o método useField é %d%n", x);
     }
-}
+} // Fim da classe Scope
