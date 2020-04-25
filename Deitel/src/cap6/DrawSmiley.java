@@ -17,6 +17,9 @@ public class DrawSmiley {
         g.fillOval(55, 65, 30, 30);
         g.fillOval(135, 65, 30, 30);
 
+        // desenha a boca
+        g.fillOval(50, 110, 120, 60);
+
         // desenha a boca para criar um sorriso
         g.setColor(Color.YELLOW);
         g.fillRect(50, 110, 120, 30);
