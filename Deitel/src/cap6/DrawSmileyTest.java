@@ -12,4 +12,4 @@ public class DrawSmileyTest {
         application.setSize(230, 250);
         application.setVisible(true);
     }
-}
+} // Fim da classe DrawSmiley
