@@ -25,4 +25,4 @@ public class DrawSmiley extends JPanel{
         g.fillRect(50, 110, 120, 30);
         g.fillOval(50, 120, 120, 40);
     }
-}
+} // Fim da classe DrawSmiley
