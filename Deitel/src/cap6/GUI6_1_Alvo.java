@@ -9,10 +9,13 @@ public class GUI6_1_Alvo extends JPanel {
         super.paintComponent(componente);
         
         SecureRandom coresAleatorias = new SecureRandom();
+        int r = 0;
+        int g = 0;
+        int b = 0;
 
-        int r = coresAleatorias.nextInt(256);
-        int g = coresAleatorias.nextInt(256);
-        int b = coresAleatorias.nextInt(256);
+        r = coresAleatorias.nextInt(256);
+        g = coresAleatorias.nextInt(256);
+        b = coresAleatorias.nextInt(256);
         
         Color cor = new Color(r, g, b);       
 
