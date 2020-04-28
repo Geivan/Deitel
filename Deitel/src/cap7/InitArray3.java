@@ -8,7 +8,7 @@ public class InitArray3 {
         
         // calcula o valor de cada elemento do array
         for (int counter = 0; counter < array.length; counter++)
-            array[counter] = 2+ 2 * counter;
+            array[counter] = 2 + 2 * counter;
         
         System.out.printf("%s%8s%n", "Index", "Value"); // títulos de coluna
         
