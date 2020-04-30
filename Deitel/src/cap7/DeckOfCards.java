@@ -11,9 +11,10 @@ public class DeckOfCards {
     
     // construtor preenche baralho de cartas
     public DeckOfCards() {
-        String[] faces = { "Ace", "Deuce", "Three", "Four", "Five", "Six", 
-            "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
-        String[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
+        String[] faces = { "Ás", "Dois", "Três", "Quatro", "Cinco", "Seis", 
+            "Sete", "Oito", "Nove", "Dez", "Valete", "Dama", "Rei" };
+        String[] suits = { "Copas", "Ouro", "Paus", "Epadas" };
+        
         deck = new Card[NUMBER_OF_CARDS]; // cria array de objetos Card
         currentCard = 0; // a primeira Card distribuída será o deck[0]
         
