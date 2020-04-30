@@ -13,6 +13,6 @@ public class Card {
     
     // retorna representação String de Card
     public String toString() {
-        return face + " of " + suit;
+        return face + " de " + suit;
     }
 }
