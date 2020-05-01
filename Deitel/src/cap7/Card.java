@@ -15,4 +15,4 @@ public class Card {
     public String toString() {
         return face + " de " + suit;
     }
-}
+} // Fim da classe Card
