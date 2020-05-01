@@ -22,4 +22,4 @@ public class GUI6_1_Alvo extends JPanel {
       //  componente.getCor();
         componente.fillOval(10, 10, 200, 200);
     }
-}
+} // Fim da classe GUI6_1_Alvo
