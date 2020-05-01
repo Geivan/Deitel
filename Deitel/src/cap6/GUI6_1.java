@@ -14,4 +14,4 @@ public class GUI6_1 {
         application.setSize(240, 260);
         application.setVisible(true);
     }    
-}
+} // Fim da classe GUI6_1
