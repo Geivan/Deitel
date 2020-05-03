@@ -36,5 +36,17 @@ public class GradeBook {
         outputBarChart();
     }
     
-    
+    // localiza nota mínima
+    public int getMinimum(){
+        int lowGrade = grades[0]; // supões que grades[0] é a menor nota
+        
+        // faz um loop pelo array de notas
+        for(int grade : grades){
+            // se a nota for mais baixa que lowGrade, atribui essa nota a lowGrade
+            if(grade < lowGrade)
+                lowGrade = grade; // nova nota mais baixa
+        }
+        
+        return lowGrade;
+    }
 }
