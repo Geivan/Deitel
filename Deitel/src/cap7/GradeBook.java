@@ -49,4 +49,18 @@ public class GradeBook {
         
         return lowGrade;
     }
+    
+    // localiza nota máxima
+    public int getMaximum(){
+        int highGrade = grades[0]; // supões que grades[0] é a maior nota
+        
+        // faz um loop pelo array de notas
+        for(int grade : grades){
+            // se a nota for maior que highGrade, atribui essa nota a highGrade
+            if(grade > highGrade)
+                highGrade = grade; // nova nota mais alta
+        }        
+        
+        return highGrade;
+    }
 }
