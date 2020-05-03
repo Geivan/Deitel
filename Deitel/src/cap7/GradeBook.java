@@ -73,7 +73,7 @@ public class GradeBook {
             total += grade;
         
         // retorna média de notas
-        return (double) total / grades.lentgh;
+        return (double) total / grades.length;
     }
     
     // gera a saída do gráfico de barras exibindo distribuição de notas
@@ -81,5 +81,25 @@ public class GradeBook {
         System.out.println("Grade distribuition:");
         
         // armazena frequência de notas em cada intervalo de 10 notas
+        int[] frequency = new int[11];
+        
+        // para cada nota, incrementa a frequência apropriada
+        for(int grade : grades)
+            ++frequency[grade / 10];
+        
+        // para cada frequência de nota, imprime barra no gráfico
+        for(int count = 0; count < frequency.length; count++){
+            // gera saída do rótulo de barra ( "00-09: ", ..., "90-99: ", "100: ")
+            if(count == 10)
+                System.out.printf("%5d: ", 100);
+            else
+                System.out.printf("%02d-%02d: ", count * 10, count * 10 + 9);
+            
+            // imprime a barra de asteriscos
+            for(int stars = 0; stars < frequency[count]; stars++)
+                System.out.printf("*");
+            
+            System.out.println();
+        }
     }
 }
