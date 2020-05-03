@@ -77,7 +77,7 @@ public class GradeBook {
     }
     
     // gera a saída do gráfico de barras exibindo distribuição de notas
-    public void outputBarChar(){
+    public void outputBarChart(){
         System.out.println("Grade distribuition:");
         
         // armazena frequência de notas em cada intervalo de 10 notas
