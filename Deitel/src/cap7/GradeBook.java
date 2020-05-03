@@ -25,5 +25,16 @@ public class GradeBook {
     public void processGrades(){
         // gera saída de array de notas
         outputGrades();
+        
+        // chama método getAvarage para calcular a nota média
+        System.out.printf("%nClass avarage is %.2f%n", getAvarage());
+        
+        // chama métodos getMinimum e getMaximum
+        System.out.printf("Lowest grade is %d%nHighest grade is %n=d%n%n", getMinimum(), getMaximum());
+        
+        // chama outputBarChar para imprimir gráfico de distribuição de nota
+        outputBarChart();
     }
+    
+    
 }
