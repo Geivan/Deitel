@@ -63,4 +63,23 @@ public class GradeBook {
         
         return highGrade;
     }
+    
+    // determina média para o teste
+    public double getAvarage(){
+        int total = 0;
+        
+        // soma notas de um aluno
+        for(int grade : grades)
+            total += grade;
+        
+        // retorna média de notas
+        return (double) total / grades.lentgh;
+    }
+    
+    // gera a saída do gráfico de barras exibindo distribuição de notas
+    public void outputBarChar(){
+        System.out.println("Grade distribuition:");
+        
+        // armazena frequência de notas em cada intervalo de 10 notas
+    }
 }
