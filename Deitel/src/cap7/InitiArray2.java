@@ -13,4 +13,4 @@ public class InitiArray2 {
         for (int counter = 0; counter < array.length; counter++)
             System.out.printf("%5d%8d%n", counter, array[counter]);
     }
-}
+} // Fim da classe
