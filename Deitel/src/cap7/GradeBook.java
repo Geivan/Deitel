@@ -111,4 +111,4 @@ public class GradeBook {
         for(int student = 0; student < grades.length; student++)
             System.out.printf("Student %s: %3d%n", student + 1, grades[student]);
     }
-} // Fim da classe
+} // Fim da classe GradeBook
