@@ -12,4 +12,4 @@ public class InitArray {
             System.out.printf("%5d%8d%n", counter, array[counter]);
         }
     }
-} // Fim da classe
+} // Fim da classe InitArray
