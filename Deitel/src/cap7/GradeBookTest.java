@@ -3,9 +3,13 @@ package cap7;
 // e, então, invoca o método processGrades para analisá-las.
 
 public class GradeBookTest {
-    // array de notas de aluno
-    public static void main(String[] args) {          
+    // método main inicia a execução de programa
+    public static void main(String[] args) {  
+        // array de notas de aluno
         int[] gradesArray = { 87, 68, 94, 100, 83, 78, 85, 91, 76, 87 };
+        
+        GradeBook mayGradeBook = new GradeBook(
+            "CS101 Introduction to Java Programming", gradesArray);
         
     }
 }
