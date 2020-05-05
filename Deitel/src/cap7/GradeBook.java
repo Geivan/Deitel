@@ -30,7 +30,7 @@ public class GradeBook {
         System.out.printf("%nClass avarage is %.2f%n", getAvarage());
         
         // chama métodos getMinimum e getMaximum
-        System.out.printf("Lowest grade is %d%nHighest grade is %n=d%n%n", getMinimum(), getMaximum());
+        System.out.printf("Lowest grade is %d%nHighest grade is %d%n%n", getMinimum(), getMaximum());
         
         // chama outputBarChar para imprimir gráfico de distribuição de nota
         outputBarChart();
@@ -109,6 +109,6 @@ public class GradeBook {
         
         // gera a saída da nota de cada aluno
         for(int student = 0; student < grades.length; student++)
-            System.out.printf("Student %s: %3d%n", student + 1, grades[student]);
+            System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
     }
 } // Fim da classe GradeBook
