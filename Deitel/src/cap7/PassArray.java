@@ -41,4 +41,4 @@ public class PassArray {
         element *= 2;
         System.out.printf("Valor do elemento em modifyElement: %d%n", element);
     }
-} // Fim da classe
+} // Fim da classe PassArray
