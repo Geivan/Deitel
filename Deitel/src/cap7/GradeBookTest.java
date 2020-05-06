@@ -15,4 +15,4 @@ public class GradeBookTest {
         myGradeBook.processGrades();
         
     }
-}  // Fim da classe
+}  // Fim da classe GradeBookTest
