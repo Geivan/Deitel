@@ -11,5 +11,6 @@ public class InitArray4 {
         outputArray(array1); // exibe array1 por linha
         
         System.out.printf("%nValues in array2 by row are%n");
+        outputArray(array2); // exibe array2 por linha
     }
 }
