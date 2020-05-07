@@ -15,4 +15,7 @@ public class InitArray4 {
     }
     
     // gera saída de linhas e colunas de um array bidimensional
+    public static void outputArray(int[][] array){
+        // faz um loop pelas linhas do array
+    }
 }
