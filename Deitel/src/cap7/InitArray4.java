@@ -8,5 +8,6 @@ public class InitArray4 {
         int[][] array2 = {{1, 2}, {3}, {4, 5, 6}};
         
         System.out.println("Values in array1 by row are");
+        outputArray(array1); // exibe array1 por linha
     }
 }
