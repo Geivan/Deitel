@@ -13,4 +13,6 @@ public class InitArray4 {
         System.out.printf("%nValues in array2 by row are%n");
         outputArray(array2); // exibe array2 por linha
     }
+    
+    // gera saída de linhas e colunas de um array bidimensional
 }
