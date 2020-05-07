@@ -9,5 +9,7 @@ public class InitArray4 {
         
         System.out.println("Values in array1 by row are");
         outputArray(array1); // exibe array1 por linha
+        
+        System.out.printf("%nValues in array2 by row are%n");
     }
 }
