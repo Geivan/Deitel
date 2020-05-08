@@ -133,6 +133,7 @@ public class GradeBook1 {
             // chama método getAvarage para calcular a média do aluno;
             // passa linha de notas como o argumento para getAvarage
             double average = getAverage(grades[student]);
+            System.out.println("%9.2f%n", average);
         }
         
         // gera a saída da nota de cada aluno
