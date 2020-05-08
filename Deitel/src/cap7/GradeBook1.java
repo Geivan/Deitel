@@ -126,6 +126,8 @@ public class GradeBook1 {
         // cria linhas/colunas de texto que representam notas de array
         for(int student = 0; student < grades.length; student++){
             System.out.printf("Student %2d", student + 1);
+            
+            for(int test : grades[student]) // gera saída de notas do aluno
         }
         
         // gera a saída da nota de cada aluno
