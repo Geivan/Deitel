@@ -121,6 +121,13 @@ public class GradeBook1 {
         for(int test = 0; test < grades[0].length; test++)
             System.out.printf("Test %d ", test + 1);
         
+        System.out.println("Avarage"); // título da coluna de média do aluno
+        
+        // cria linhas/colunas de texto que representam notas de array
+        for(int student = 0; student < grades.length; student++){
+            System.out.printf("Student %2d", student + 1);
+        }
+        
         // gera a saída da nota de cada aluno
         for(int student = 0; student < grades.length; student++)
             System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
