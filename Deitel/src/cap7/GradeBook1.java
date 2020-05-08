@@ -70,21 +70,21 @@ public class GradeBook1 {
         return highGrade;
     }
     
-    // determina média para o teste
-    public double getAvarage(){
+    // determina média do cojunto particular de notas
+    public double getAvarage(int[] setOfGrades){
         int total = 0;
         
         // soma notas de um aluno
-        for(int grade : grades)
+        for(int grade : setOfGrades)
             total += grade;
         
         // retorna média de notas
-        return (double) total / grades.length;
+        return (double) total / setOfGrades.length;
     }
     
     // gera a saída do gráfico de barras exibindo distribuição de notas
     public void outputBarChart(){
-        System.out.println("Grade distribuition:");
+        System.out.println("Overall grade distribuition:");
         
         // armazena frequência de notas em cada intervalo de 10 notas
         int[] frequency = new int[11];
