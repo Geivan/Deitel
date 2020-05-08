@@ -36,7 +36,8 @@ public class GradeBook1 {
     
     // localiza nota mínima
     public int getMinimum(){
-        int lowGrade = grades[0]; // supões que grades[0] é a menor nota
+        // supões que grades[0] é a menor nota
+        int lowGrade = grades[0][0]; 
         
         // faz um loop pelo array de notas
         for(int grade : grades){
