@@ -128,6 +128,7 @@ public class GradeBook1 {
             System.out.printf("Student %2d", student + 1);
             
             for(int test : grades[student]) // gera saída de notas do aluno
+                System.out.printf("%8d", test);
         }
         
         // gera a saída da nota de cada aluno
