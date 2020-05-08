@@ -41,9 +41,12 @@ public class GradeBook1 {
         
         // faz um loop pelas linhas do array de notas
         for(int[] studentGrades : grades){
-            // se a nota for mais baixa que lowGrade, atribui essa nota a lowGrade
-            if(grade < lowGrade)
-                lowGrade = grade; // nova nota mais baixa
+            // faz um loop pelas colunas de linha atual
+            for(int grade : studentGrades){
+                // se a nota for menor que lowGrade, atribui a nota a lowGrade
+                if(grade < lowGrade)
+                    lowGrade = grade;
+            }
         }
         
         return lowGrade;
