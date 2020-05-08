@@ -131,6 +131,7 @@ public class GradeBook1 {
                 System.out.printf("%8d", test);
             
             // chama método getAvarage para calcular a média do aluno;
+            // passa linha de notas como o argumento para getAvarage
         }
         
         // gera a saída da nota de cada aluno
