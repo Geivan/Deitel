@@ -117,6 +117,10 @@ public class GradeBook1 {
         System.out.printf("The grades are:%n%n");
         System.out.print("            "); // alinha títulos de coluna
         
+        // cria um título de coluna para cada um dos testes
+        for(int test = 0; test < grades[0].length; test++)
+            System.out.printf("Test %d ", test + 1);
+        
         // gera a saída da nota de cada aluno
         for(int student = 0; student < grades.length; student++)
             System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
