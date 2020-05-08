@@ -89,9 +89,12 @@ public class GradeBook1 {
         // armazena frequência de notas em cada intervalo de 10 notas
         int[] frequency = new int[11];
         
-        // para cada nota, incrementa a frequência apropriada
-        for(int grade : grades)
-            ++frequency[grade / 10];
+        // para cada nota em GradeBook, incrementa a frequência apropriada
+        for(int[] grade : grades){
+            for(int grade : studentGrades)
+                ++frequency[grade / 10];
+        }
+            
         
         // para cada frequência de nota, imprime barra no gráfico
         for(int count = 0; count < frequency.length; count++){
