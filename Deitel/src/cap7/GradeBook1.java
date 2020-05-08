@@ -54,7 +54,8 @@ public class GradeBook1 {
     
     // localiza nota máxima
     public int getMaximum(){
-        int highGrade = grades[0]; // supões que grades[0] é a maior nota
+        // supõe que o primeiro elemento de array de notas é o maior
+        int highGrade = grades[0][0]; 
         
         // faz um loop pelo array de notas
         for(int grade : grades){
