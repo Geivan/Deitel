@@ -71,7 +71,7 @@ public class GradeBook1 {
     }
     
     // determina média do cojunto particular de notas
-    public double getAvarage(int[] setOfGrades){
+    public double getAverage(int[] setOfGrades){
         int total = 0;
         
         // soma notas de um aluno
@@ -90,7 +90,7 @@ public class GradeBook1 {
         int[] frequency = new int[11];
         
         // para cada nota em GradeBook, incrementa a frequência apropriada
-        for(int[] grade : grades){
+        for(int[] studentGrades : grades){
             for(int grade : studentGrades)
                 ++frequency[grade / 10];
         }
@@ -133,11 +133,7 @@ public class GradeBook1 {
             // chama método getAvarage para calcular a média do aluno;
             // passa linha de notas como o argumento para getAvarage
             double average = getAverage(grades[student]);
-            System.out.println("%9.2f%n", average);
+            System.out.printf("%9.2f%n", average);
         }
-        
-        // gera a saída da nota de cada aluno
-        for(int student = 0; student < grades.length; student++)
-            System.out.printf("Student %2d: %3d%n", student + 1, grades[student]);
     }
 }
