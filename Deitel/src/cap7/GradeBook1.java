@@ -129,6 +129,8 @@ public class GradeBook1 {
             
             for(int test : grades[student]) // gera saída de notas do aluno
                 System.out.printf("%8d", test);
+            
+            // chama método getAvarage para calcular a média do aluno;
         }
         
         // gera a saída da nota de cada aluno
