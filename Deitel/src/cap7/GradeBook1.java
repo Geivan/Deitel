@@ -39,8 +39,8 @@ public class GradeBook1 {
         // supões que grades[0] é a menor nota
         int lowGrade = grades[0][0]; 
         
-        // faz um loop pelo array de notas
-        for(int grade : grades){
+        // faz um loop pelas linhas do array de notas
+        for(int[] studentGrades : grades){
             // se a nota for mais baixa que lowGrade, atribui essa nota a lowGrade
             if(grade < lowGrade)
                 lowGrade = grade; // nova nota mais baixa
