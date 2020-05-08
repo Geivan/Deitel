@@ -115,6 +115,7 @@ public class GradeBook1 {
     // gera a saída do conteúdo do array de notas
     public void outputGrades(){
         System.out.printf("The grades are:%n%n");
+        System.out.print("            "); // alinha títulos de coluna
         
         // gera a saída da nota de cada aluno
         for(int student = 0; student < grades.length; student++)
