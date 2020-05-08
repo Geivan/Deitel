@@ -5,7 +5,7 @@ public class GradeBook1 {
     private String courseName; // nome do curso que essa GradeBook representa
     private int[][] grades; // array bidimentional de notas de aluno
     
-    // construtor
+    // construtor de dois argumentos inicializados CourseName e array de notas
     public GradeBook(String courseName, int[] grades){
         this.courseName = courseName;
         this.grades = grades;
