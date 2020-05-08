@@ -3,7 +3,7 @@ package cap7;
 
 public class GradeBook1 {
     private String courseName; // nome do curso que essa GradeBook representa
-    private int[] grades; // array de notas de aluno
+    private int[][] grades; // array bidimentional de notas de aluno
     
     // construtor
     public GradeBook(String courseName, int[] grades){
