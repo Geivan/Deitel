@@ -25,4 +25,4 @@ public class InitArray4 {
             System.out.println();
         }
     }
-}
+} Fim
