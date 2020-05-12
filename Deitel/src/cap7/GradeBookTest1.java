@@ -12,7 +12,7 @@ public class GradeBookTest1 {
                                {87, 93, 73}};        
         
         GradeBook1 myGradeBook1 = new GradeBook1(
-                "CS101 Introduction to Java Programing", gradesArray);
+                "CS101 Introduction to Java Programming", gradesArray);
         System.out.printf("Welcome to the grade book for%n%s%n%n",
                 myGradeBook1.getCourseName());
         myGradeBook1.processGrades();
