@@ -3,5 +3,6 @@ package cap7;
 // das notas e, então, invoca o método processGrades para analisá-las.
 
 public class GradeBookTest1 {
+    // método main inicia a execução de programa
 
 }
