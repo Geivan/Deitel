@@ -119,7 +119,7 @@ public class GradeBook1 {
         
         // cria um título de coluna para cada um dos testes
         for(int test = 0; test < grades[0].length; test++)
-            System.out.printf("Test %d ", test + 1);
+            System.out.printf("Test %d  ", test + 1);
         
         System.out.println("Avarage"); // título da coluna de média do aluno
         
