@@ -5,6 +5,6 @@ package cap7;
 public class GradeBookTest1 {
     // método main inicia a execução de programa
     public static void main(String[] args) {
-        
+        // array bidimensional de notas de aluno
     }
 }
