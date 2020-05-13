@@ -14,6 +14,11 @@ public class VarargsTest {
     }
     
     public static void main(String[] args) {
+        double d1 = 10.0;
+        double d2 = 20.0;
+        double d3 = 30.0;
+        double d4 = 40.0;
+        
         
     }
 }
