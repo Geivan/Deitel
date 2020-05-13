@@ -7,5 +7,7 @@ public class VarargsTest {
         double total = 0.0;
         
         // calcula total utilizando a instrução for aprimorada
+        for(double d : numbers)
+            total += d;
     }
 }
