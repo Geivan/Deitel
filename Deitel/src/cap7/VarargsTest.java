@@ -9,5 +9,7 @@ public class VarargsTest {
         // calcula total utilizando a instrução for aprimorada
         for(double d : numbers)
             total += d;
+        
+        return total / numbers.length;
     }
 }
