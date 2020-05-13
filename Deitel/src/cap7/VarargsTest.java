@@ -12,4 +12,8 @@ public class VarargsTest {
         
         return total / numbers.length;
     }
+    
+    public static void main(String[] args) {
+        
+    }
 }
