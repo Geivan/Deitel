@@ -3,4 +3,7 @@ package cap7;
 
 public class VarargsTest {
     // calcula a média
+    public static double avarage(double... numbers){
+        
+    }
 }
