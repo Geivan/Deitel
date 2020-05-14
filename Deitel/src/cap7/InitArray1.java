@@ -9,7 +9,9 @@ public class InitArray1 {
                 "Error: Please re-enter the entire command, including\n" +
                 "an array size, initial value and increment./n");
         else{
-            // obtém o tamanho do array a partir do primeiro argumento de linha
+            // obtém o tamanho do array a partir do primeiro argumento de linha de comando
+            int arrayLength = Integer.parseInt(args[0]);
+            int[] array = new int[arrayLength];
         }
     }
 }
