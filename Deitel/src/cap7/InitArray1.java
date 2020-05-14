@@ -3,6 +3,6 @@ package cap7;
 
 public class InitArray1 {
     public static void main(String[] args) {
-        
+        // verifica número de argumentos de linha de comando
     }
 }
