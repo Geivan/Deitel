@@ -12,6 +12,10 @@ public class InitArray1 {
             // obtém o tamanho do array a partir do primeiro argumento de linha de comando
             int arrayLength = Integer.parseInt(args[0]);
             int[] array = new int[arrayLength];
+            
+            // obtém o valor inicial e o incrementa a partir dos argumentos de linha de comando
+            int initialValue = Integer.parseInt(args[1]);
+            int increment = Integer.parseInt(args[2]);
         }
     }
 }
