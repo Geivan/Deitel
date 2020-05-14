@@ -8,6 +8,8 @@ public class InitArray1 {
             System.out.printf(
                 "Error: Please re-enter the entire command, including\n" +
                 "an array size, initial value and increment./n");
-        
+        else{
+            // obtém o tamanho do array a partir do primeiro argumento de linha
+        }
     }
 }
