@@ -24,3 +24,7 @@ hs_err_pid*
 /Deitel/nbproject/private/
 Deitel/build/classes/.netbeans_automatic_build
 Deitel/build/classes/.netbeans_update_resources
+.idea/codeStyles/codeStyleConfig.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/Deitel.iml
