@@ -11,5 +11,8 @@ public class ArrayManipulations {
         
         for(double value : doubleArray)
             System.out.printf("%.1f ", value);
+        
+        // preenche o array de 10 elementos com 7s
+        int[] filledIntArray = new int[10];
     }
 }
