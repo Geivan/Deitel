@@ -14,5 +14,6 @@ public class ArrayManipulations {
         
         // preenche o array de 10 elementos com 7s
         int[] filledIntArray = new int[10];
+        Arrays.fill(filledIntArray, 7);
     }
 }
