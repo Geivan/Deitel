@@ -5,5 +5,6 @@ import java.util.ArrayList;
 public class ArrayListCollection {
     public static void main(String[] args) {
         // criar um novo ArrayList de strings com uma capacidade inicial de 10
+        ArrayList<String> items = new ArrayList<String>();
     }
 }
