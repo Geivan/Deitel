@@ -8,5 +8,6 @@ public class ArrayListCollection {
         ArrayList<String> items = new ArrayList<String>();
         
         items.add("red"); // anexa um item à lista
+        items.add(0, "yellow"); // insere "yellow" no índice 0
     }
 }
