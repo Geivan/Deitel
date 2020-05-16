@@ -11,5 +11,10 @@ public class ArrayListCollection {
         items.add(0, "yellow"); // insere "yellow" no índice 0
         
         // cabeçalho
+        System.out.print("Display list contents with couter-contrelled loop:");
+        
+        // exibe as cores na lista
+        for(int i = 0; i < items.size(); i++)
+            System.out.printf(" %s", items.get(i));
     }
 }
