@@ -52,4 +52,4 @@ public class ArrayManipulations {
         for(int value : array)
             System.out.printf("%d ", value);
     }
-} // Fim da classe
+} // Fim da classe ArrayManipulations
