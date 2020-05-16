@@ -16,5 +16,8 @@ public class ArrayListCollection {
         // exibe as cores na lista
         for(int i = 0; i < items.size(); i++)
             System.out.printf(" %s", items.get(i));
+        
+        // exibe as cores usando for aprimorada no método display
+        display(items, "\nDisplay list contents with enhanced for statement:");
     }
 }
