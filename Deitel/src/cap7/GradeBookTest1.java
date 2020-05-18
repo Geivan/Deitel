@@ -17,4 +17,4 @@ public class GradeBookTest1 {
                 myGradeBook1.getCourseName());
         myGradeBook1.processGrades();
     }
-} // Fim da cl
+} // Fim da cla
