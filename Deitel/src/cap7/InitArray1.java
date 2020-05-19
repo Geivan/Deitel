@@ -28,4 +28,4 @@ public class InitArray1 {
                 System.out.printf("%5d%8d\n", counter, array[counter]);
         }
     }
-}  // F
+}  // Fi
