@@ -25,4 +25,4 @@ public class StudentPoll {
         for (int rating = 1; rating < frequency.length; rating++)
             System.out.printf("%6d%10d%n", rating, frequency[rating]);
     }
-} // Fim da cl
+} // Fim da cla
