@@ -31,3 +31,5 @@ Deitel/build/classes/.netbeans_update_resources
 .idea/misc.xml
 .idea/workspace.xml
 Deitel.iml
+.classpath
+.project
