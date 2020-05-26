@@ -12,4 +12,4 @@ public class SumArray {
         
         System.out.printf("Total of array elements: %d%n", total);
     }
-} // Fim da classe Su
+} // Fim da classe Sum
