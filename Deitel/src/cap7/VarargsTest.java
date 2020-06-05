@@ -25,4 +25,4 @@ public class VarargsTest {
         System.out.printf("Average of d1, d2 and d3 is %.1f%n", average(d1, d2, d3));
         System.out.printf("Average of d1, d2, d3 and d4 is %.1f%n", average(d1, d2, d3, d4));
     }
-} // Fim da class VaragsT
+} // Fim da class VaragsTe
