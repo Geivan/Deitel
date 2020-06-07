@@ -8,7 +8,7 @@ public class StudentPoll {
         int[] frequency = new int[6]; // array de contadores de frequência
         
         // para cada resposta, seleciona o elemento de respostas e utiliza esse valor
-        // como índice de frequência para determinar elemento a incrementa
+        // como índice de frequência para determinar elemento a incrementar
         for (int answer = 0; answer < responses.length; answer++) {
             try {
                 ++frequency[responses[answer]];
