@@ -37,7 +37,7 @@ public class DrawRainbow extends JPanel {
 				
 				// preenche o arco de 0 a 180 graus
 				g.fillArc(centerX - counter * radius, 
-						  centery - coutner * radius, 
+						  centery - counter * radius, 
 						  counter * radius * 2, counter * radius * 2, 0, 180);
 			}
 		}		
