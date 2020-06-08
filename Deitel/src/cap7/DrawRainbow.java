@@ -18,5 +18,27 @@ public class DrawRainbow extends JPanel {
 	// construtor
 	public DrawRainbow() {
 		setBackground(Color.WHITE); // configura o fundo como branco
-		}
+	}
+		
+		// desenha um arco-íris utilizando arcos concêntricos
+		public void paintComponent(Graphics g) {
+			super.paintComponent(g);
+			
+			int radius = 20; // raio de um arco
+			
+			// desenha o arco-íris perto da parte central inferior
+			int centerX = getWidth() / 2;
+			int centery = getHeight() - 10;
+			
+			// desenha arcos preenchidos com o mais externo
+			for(int counter = colors.length; counter > 0; counter--) {
+				// configura a cor para o arco atual
+				g.setColor(colors[counter - 1]);
+				
+				// preenche o arco de 0 a 180 graus
+				g.fillArc(centerX - counter * radius, 
+						  centery - coutner * radius, 
+						  counter * radius * 2, counter * radius * 2, 0, 180);
+			}
+		}		
 }
