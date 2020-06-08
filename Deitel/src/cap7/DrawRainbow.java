@@ -16,5 +16,7 @@ public class DrawRainbow extends JPanel {
 		 Color.GREEN, Color.YELLOW, Color.ORANGE, Color.RED};
 	
 	// construtor
+	public DrawRainbow() {
+		setBackground(Color.WHITE); // configura o fundo como branco
 		}
 }
