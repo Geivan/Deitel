@@ -9,5 +9,12 @@ public class DrawRainbow extends JPanel {
 	private final static Color VIOLET = new Color(128, 0, 128);
 	private final static Color INDIGO = new Color(75, 0, 130);
 	
+	// Cores a utilizar no arco-íris, iniciando da parte mais interna
+	// As duas entradas em branoc resultam em um arco vazio no centro
+	private Color[] colors =
+		{Color.WHITE, Color.WHITE, VIOLET, INDIGO, Color.BLUE,
+		 Color.GREEN, Color.YELLOW, Color.ORANGE, Color.RED};
 	
+	// construtor
+		}
 }
