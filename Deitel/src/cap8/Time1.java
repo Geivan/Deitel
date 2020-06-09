@@ -8,4 +8,7 @@ public class Time1 {
 	
 	// configura um novo valor de tempo usando hora universal; lança uma
 	// exceção se a hora, minuto ou segundo for inválido
+	public void setTime(int hour, int minut, int second) {
+		// valida hora, minuto e segundo
+	}
 }
