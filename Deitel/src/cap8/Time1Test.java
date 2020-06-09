@@ -8,4 +8,7 @@ public class Time1Test {
 	// gera saída de representações de string da data/hora
 	displayTime("After time object is created, time");
 	System.out.println();
+	
+	// altera a data/hora e gera saída da data/hora atualizada
+	time.setTime(13, 27,  6);
 }
