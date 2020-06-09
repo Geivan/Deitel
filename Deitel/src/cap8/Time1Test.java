@@ -13,4 +13,6 @@ public class Time1Test {
 	time.setTime(13, 27,  6);
 	displayTime("After calling setTime", time);
 	System.out.println();
+	
+	// tenta definir data/hora com valores inválidos
 }
