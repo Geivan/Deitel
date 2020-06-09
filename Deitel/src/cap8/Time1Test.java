@@ -15,4 +15,18 @@ public class Time1Test {
 	System.out.println();
 	
 	// tenta definir data/hora com valores inválidos
+	try {
+		time.setTime(99, 99, 99); // todos os valores fora do intervalo
+	}
+	catch (IllegalArgumentException e){
+		System.out.printf("Exception: %s%n5n", e.getMessage());
+	}
+	
+	// exibe a data/hora após uma tentativa de definir valores inválidos
+	displayTime("After calling setTime with invalid values", time);
+}
+
+// exibe um objeto Time1 nos formatos de 24 horas e 12 horas
+private static void displayTime(String header, Time1 t) {
+	System.out.printf("%s%nUniversal time: %s%nStandard time: %s%n", header, t.toUniversalString(), t.toString());
 }
