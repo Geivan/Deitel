@@ -3,4 +3,5 @@ package cap8;
 
 public class Time1 {
 	private int hour; // 0 - 23
+	private int minute; // 0 - 59
 }
