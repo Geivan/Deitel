@@ -20,7 +20,7 @@ public class Time1Test {
 			time.setTime(99, 99, 99); // todos os valores fora do intervalo
 		}
 		catch (IllegalArgumentException e){
-			System.out.printf("Exception: %s%n5n", e.getMessage());
+			System.out.printf("Exception: %s%n%n", e.getMessage());
 		}
 		
 		// exibe a data/hora após uma tentativa de definir valores inválidos
