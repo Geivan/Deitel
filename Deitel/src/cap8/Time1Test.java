@@ -7,4 +7,5 @@ public class Time1Test {
 	
 	// gera saída de representações de string da data/hora
 	displayTime("After time object is created, time");
+	System.out.println();
 }
