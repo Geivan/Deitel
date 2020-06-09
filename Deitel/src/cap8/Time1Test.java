@@ -6,4 +6,5 @@ public class Time1Test {
 	Time1 time = new Time1(); // invoca o construtor Time1
 	
 	// gera saída de representações de string da data/hora
+	displayTime("After time object is created, time");
 }
