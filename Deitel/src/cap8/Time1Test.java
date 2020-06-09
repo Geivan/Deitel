@@ -11,4 +11,6 @@ public class Time1Test {
 	
 	// altera a data/hora e gera saída da data/hora atualizada
 	time.setTime(13, 27,  6);
+	displayTime("After calling setTime", time);
+	System.out.println();
 }
