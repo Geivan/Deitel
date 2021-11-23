@@ -22,4 +22,4 @@ public class BarChart {
             System.out.println();
         }
     }
-} // Fim da classe BarChart
+} // Fim da class BarChart
