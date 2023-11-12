@@ -2,8 +2,6 @@ package cap8;
 
 import java.math.BigDecimal;
 import java.text.NumberFormat;
-import java.util.Arrays;
-import java.util.Locale;
 
 public class Interest {
     public static void main(String[] args){
